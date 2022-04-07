@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: mont
+}
+
+body{
+    font-size: 16px;
+    background-color: #C0C0C0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header {
+    background-image: linear-gradient(to right, #08b4ff , #0efff9);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.logo {
+  color: black;
+}
+
+h1 {
+    background-color: #CACACA;
+    color: #202022;
+}
+
+
+
+nav a{
+
+    background-color: #9abeff;
+    padding: 13px;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #202022;
+}
+
+nav a:hover {
+    background-color: ;
+    transition-duration: 2s;
+   
+}
+
+
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.athos{
+  background-image:url(/img/FL_8576-1-600x400.webp);
+   
+}
+
+.capa legend {
+    font-size: 0.8rem;
+    text-align: center;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+article {
+    text-align: justify;
+    font-family:  'Roboto', sans-serif;
+    padding: 20px;
+    margin: 20px;
+ 
+}
+
+h2 {
+ text-align: center;
+ font-family: 'Roboto', sans-serif;
+}
+
+.card {
+  width: 350px;
+  height: 200px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  height: 500px;
+  flex-direction: row;
+  background: #878787;
+  text-align: center;
+  }
+
+  .cristais{
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .alvorada{
+    width: 350px;
+    height: 200px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    height: 500px;
+    flex-direction: row;
+    background: #878787;
+    text-align: center;
+  }
+  .alvorada img {
+      width: 300px;
+      height: 200;
+      margin-top: 10px;
+      
+  }
+  
+  .trespoderes{
+    width: 350px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 4px;
+    flex-wrap: wrap;
+    height: 500px;
+    flex-direction: row;
+    background: #878787;
+    text-align: center;
+
+}
+
+.trespoderes:hover {
+    transform: scale(1.1);
+}
+
+.alvorada:hover {
+    transform: scale(1.1);
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+
+  .card p {
+    text-align: justify;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+  .trespoderes p {
+      color: white;
+      text-align: justify;
+      padding: 20px;
+      font-family: 'Roboto', sans-serif;
+  }
+  
+  .alvorada p {
+    color: white;
+    text-align: justify;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+  .trespoderes img {
+      width: 300px;
+      height: 200px;
+      margin-top: 10px;
+     
+  }
+
+  section.video {
+    text-align: center;
+    display: block;
+  }
+  section.video h5 {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  h4.title-card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  p.description {
+    margin-top: 10px;
+    text-align: justify;
+    padding: 10px;
+    font-size: 16px;
+  }
+  iframe {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: #1E90FF;
+  }
+  
+  footer img {
+     width: 30%;
+  }
+
+
+  @media (max-width: 460px) {
+    header{
+      font-size: 0.5rem;
+      padding: 8px;
+      flex-direction: column;
+      flex-wrap: wrap;
+      text-align: center;
+      width: 100%;
+      height: 250px;
+      align-items: center;
+    }
+
+
+    .card {
+      width: 80%;
+      margin-bottom: 10px;
+    }
+
+    .capa img {
+        width: 80%;
+    }
+
+    .trespoderes {
+        width: 85%;
+        margin-bottom: 10px;
+    }
+
+    .alvorada {
+        width: 85%;
+        margin-bottom: 10px;
+    }
+
+    section.video h5 {
+      font-size: 0.8rem;
+    }
+    iframe {
+      width: 400px;
+    }
+    footer {
+      flex-direction: column;
+      width: 100%;
+      
+    }
